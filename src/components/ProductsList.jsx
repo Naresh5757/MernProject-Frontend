@@ -5,7 +5,7 @@ import { useProductStore } from "../stores/useProductStores"
 
 const ProductsList = () => {
 
-  const { delteProduct, toggleFeaturedProduct, products } = useProductStore()
+  const { deleteProduct, toggleFeaturedProduct, products } = useProductStore()
 
   return (
     <div className='bg-gray-800 shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto'
